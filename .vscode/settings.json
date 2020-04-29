@@ -9,5 +9,6 @@
     "cSpell.words": [
         "csvfile",
         "csvreader"
-    ]
+    ],
+    "task.quickOpen.skip": true
 }
