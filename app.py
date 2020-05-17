@@ -1,5 +1,4 @@
 import csv
-with open('movie_metadata.csv', 'r',encoding="utf8") as csv_file:
-    csv_reader = csv.DictReader(csv_file)
-    for line in csv_reader:
-        print(line['imdb_score'],line['movie_title'],line['director_name'])
+filename = "movie_metadata2.csv"
+with open(filename, 'rt', encoding='utf8', newline='') as csv_file:
+    csvreader = csv.reader(csv_file)
