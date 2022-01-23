@@ -1,12 +1,8 @@
-import hello
-import variable
-import condition
+import lists
 
 
 def start():
-    hello.print_hello()
-    print(variable)
-    print(condition)
+    print(lists)
 
 
 if __name__ == '__main__':
