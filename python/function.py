@@ -36,3 +36,14 @@ while counter < 90:
     counter += 1
 
 turtle.exitonclick()
+
+
+def myfnc(x):
+    print("inside myfunc", x)
+    x = 10
+    print("inside myfunc", x)
+
+
+x = 20
+myfnc(x)
+print(x)
