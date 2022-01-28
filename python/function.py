@@ -1,5 +1,19 @@
-def add(a, b):
-    return a + b
+def add(num1, num2):
+    return num1 + num2
 
 
-print(add(12, 13))
+n = 10
+m = 5
+result = add(n, m)
+print(result)
+
+number1 = 10
+number2 = 10
+result = add(number1, number2)
+print(result)
+
+n1 = 20
+n2 = 10
+print(add(number1, number2))
+
+print(add(2.5, 3.5))
