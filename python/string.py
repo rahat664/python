@@ -11,3 +11,7 @@ else:
     str = "Hi " + name + "! How are you?"
     print(str)
 turtle.exitonclick()
+
+str = "a quick brown fox jumps over the lazy dog"
+for c in "abcdefghijklmnopqrstuvwxyz":
+    print(c, str.count(c))
