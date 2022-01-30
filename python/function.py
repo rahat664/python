@@ -83,3 +83,7 @@ my_list = [1, 2, 3, 4]
 print("before function call", my_list)
 test_fnc(my_list)
 print("after function call", my_list)
+
+li = [1, 2, 3]
+result = sum(li)
+print(result)
