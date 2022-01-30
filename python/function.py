@@ -22,7 +22,6 @@ print(add(number1, number2))
 print(add(2.5, 3.5))
 
 
-
 def myfnc(x):
     print("inside myfunc", x)
     x = 10
@@ -33,9 +32,23 @@ x = 20
 myfnc(x)
 print(x)
 
+
 def myfnc2(y):
     print("y = ", y)
     print("x = ", x)
+
+
 x = 20
 myfnc2(x)
 
+
+def myfnc3(x, y=10, z=0):
+    print("x = ", x, "y = ", y, "z = ", z)
+
+
+x = 5
+y = 6
+z = 7
+myfnc3(x, y, z)
+myfnc3(x, y)
+myfnc3(x)
