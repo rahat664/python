@@ -73,3 +73,13 @@ def add_numbers(numbers):
 
 result = add_numbers([1, 2, 30, 4, 5, 9])
 print(result)
+
+
+def test_fnc(li):
+    li[0] = 10
+
+
+my_list = [1, 2, 3, 4]
+print("before function call", my_list)
+test_fnc(my_list)
+print("after function call", my_list)
