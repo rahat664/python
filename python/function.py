@@ -62,3 +62,14 @@ myfnc4(x=1, y=2, z=5)
 a = 5
 b = 6
 myfnc4(x=a, z=b)
+
+
+def add_numbers(numbers):
+    result = 0
+    for number in numbers:
+        result += number
+    return result
+
+
+result = add_numbers([1, 2, 30, 4, 5, 9])
+print(result)
