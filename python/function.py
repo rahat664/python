@@ -52,3 +52,13 @@ z = 7
 myfnc3(x, y, z)
 myfnc3(x, y)
 myfnc3(x)
+
+
+def myfnc4(x, z, y=10):
+    print("x = ", x, "y = ", y, "z = ", z)
+
+
+myfnc4(x=1, y=2, z=5)
+a = 5
+b = 6
+myfnc4(x=a, z=b)
