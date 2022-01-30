@@ -22,21 +22,6 @@ print(add(number1, number2))
 print(add(2.5, 3.5))
 
 
-def draw_square(side_length):
-    for i in range(4):
-        turtle.forward(side_length)
-        turtle.left(90)
-
-
-counter = 0
-
-while counter < 90:
-    draw_square(100)
-    turtle.right(4)
-    counter += 1
-
-turtle.exitonclick()
-
 
 def myfnc(x):
     print("inside myfunc", x)
@@ -47,3 +32,10 @@ def myfnc(x):
 x = 20
 myfnc(x)
 print(x)
+
+def myfnc2(y):
+    print("y = ", y)
+    print("x = ", x)
+x = 20
+myfnc2(x)
+
