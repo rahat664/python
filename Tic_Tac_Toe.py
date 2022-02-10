@@ -1,6 +1,5 @@
 # Tic-Tac-Toe Program using random number in python
 
-# importing all necessary libraries
 
 import numpy as np
 import random
@@ -23,6 +22,7 @@ def possibilities(board):
             if board[i][j] == 0:
                 l.append((i, j))
     return l
+
 # select a random place for the player
 
 
